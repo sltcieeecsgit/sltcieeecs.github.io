@@ -91,6 +91,8 @@ body {
   line-height: 1.6;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -277,6 +279,28 @@ img {
 
 .home__img {
   width: 300px;
+  justify-self: center;
+}
+
+.home__social {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-content: center;
+  justify-self: center;
+}
+
+.home__social-icon:hover {
+  color: var(--first-color);
+  justify-self: center;
+}
+
+.home__social-icon {
+  width: min-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+  align-self: center;
   justify-self: center;
 }
 
@@ -473,6 +497,20 @@ img {
   .app__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+
+  .home__social {
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+
+  }
+
+  .home__social-icon {
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
   }
 
   .about__data,
