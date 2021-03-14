@@ -691,9 +691,9 @@ img {
 }
 
 .menu__img {
-  width: 400px;
+  width: 1000px;
   align-self: center;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-6);
 }
 
 .menu__name,
