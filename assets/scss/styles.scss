@@ -626,12 +626,10 @@ input{
         text-align: center;
         margin-bottom: var(--mb-2-5);
     }
-    &__form{
-        background-color: var(--input-color);
-        padding: .5rem;
-        display: flex;
-        justify-content: space-between;
+    &__button{
+        box-align: center;
     }
+
     &__input{
         width: 70%;
         padding-right: .5rem;
