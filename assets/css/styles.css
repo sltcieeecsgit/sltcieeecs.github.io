@@ -596,6 +596,19 @@ input {
 
 .place__content, .place__title {
   color: var(--white-color);
+
+  
+  
+  
+}
+
+.place_content{
+
+  background-color: black;
+  opacity: 0.55;
+  bottom: 1.5rem;
+  left: 1rem;
+
 }
 
 .place__content {
@@ -608,6 +621,9 @@ input {
   flex-direction: column;
   justify-content: space-between;
   padding: .75rem .75rem 1rem;
+
+  
+  
 }
 
 .place__rating {
@@ -632,6 +648,7 @@ input {
 .place__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-25);
+
 }
 
 .place__subtitle {
